@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.13)  21 NOV 2025 11:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.2.13)  21 NOV 2025 11:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**demande-stage-recherche-Master-2026.tex
-(./demande-stage-recherche-Master-2026.tex
+**"en-demande-stage-recherche-Master-2026 copie.tex"
+(./en-demande-stage-recherche-Master-2026 copie.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22>
 (/usr/local/texlive/2023/texmf-dist/tex/latex/base/article.cls
@@ -161,8 +161,8 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count277
 \l__pdf_internal_box=\box55
 )
-(./demande-stage-recherche-Master-2026.aux)
-\openout1 = `demande-stage-recherche-Master-2026.aux'.
+(./en-demande-stage-recherche-Master-2026 copie.aux)
+\openout1 = `"en-demande-stage-recherche-Master-2026 copie.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
 LaTeX Font Info:    ... okay on input line 29.
@@ -217,22 +217,22 @@ Package pdftex.def Info: logo-ulco-16.png  used on input line 35.
 {/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./logo_
 lisic.jpg> <./logo-ulco-16.png>] [2{/usr/local/texlive/2023/texmf-dist/fonts/en
 c/dvips/cm-super/cm-super-ts1.enc}]
-(./demande-stage-recherche-Master-2026.aux) ) 
+(./en-demande-stage-recherche-Master-2026 copie.aux) ) 
 Here is how much of TeX's memory you used:
- 2838 strings out of 476025
- 42573 string characters out of 5790017
+ 2839 strings out of 476025
+ 42736 string characters out of 5790017
  1859388 words of memory out of 5000000
- 23292 multiletter control sequences out of 15000+600000
+ 23293 multiletter control sequences out of 15000+600000
  513881 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,5n,62p,2593b,180s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fo
-nts/type1/public/cm-super/sfrm1000.pfb>
-Output written on demande-stage-recherche-Master-2026.pdf (2 pages, 374984 byte
-s).
+ 57i,5n,62p,2604b,180s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texm
+f-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on "en-demande-stage-recherche-Master-2026 copie.pdf" (2 pages, 
+374984 bytes).
 PDF statistics:
  34 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream
