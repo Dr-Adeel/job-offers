@@ -1,0 +1,121 @@
+\documentclass{article}
+
+% Demande de stage Master laboratoire
+% version 1 du 26 ocotbre 2020
+
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{algorithmic,algorithm} 
+\usepackage{amssymb}
+
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+
+\setlength{\topmargin}{0pt}
+\setlength{\headheight}{0pt}
+\setlength{\headsep}{0pt}
+\setlength{\textheight}{650pt}
+\setlength{\footskip}{0pt}
+
+\setlength{\oddsidemargin}{-20pt}
+\setlength{\textwidth}{460pt}
+\setlength{\marginparsep}{5pt}
+\setlength{\marginparwidth}{0pt}
+
+\setlength{\evensidemargin}{0pt}
+
+
+%=======================================================
+
+%=======================================================
+\begin{document}
+
+%=======================================================
+%Titre 
+
+\begin{center}
+\includegraphics[width=4cm]{logo_lisic.jpg}\hfill \includegraphics[width=2.5cm]{logo-ulco-16.png}\\
+
+\vspace{1.5cm}
+\textbf{\Large{Demande Stage Master 2 Recherche 2027}}
+\vspace{2cm}
+\end{center}
+
+%=======================================================
+\section{Titre} Développement d’une approche d’explicabilité fondée sur l’analyse contrefactuelle pour un système de recommandation de médicaments
+
+%=======================================================
+\section{Encadrant}
+Adeel Ahmad
+
+%=======================================================
+\section{Dur\'ee}
+4-6 mois
+
+\section{Description du sujet}
+
+Les systèmes de recommandation fondés sur l’intelligence artificielle sont de plus en plus utilisés pour exploiter des données complexes et assister la prise de décision dans différents domaines, notamment celui de la santé et des recommandations interactives \cite{choaib:hal-05068872, luo2024survey}.
+
+Cependant, les modèles d’apprentissage automatique, en particulier les architectures hybrides combinant Transformers et réseaux de neurones sur graphes (GNN), présentent souvent une faible interprétabilité \cite{Garouani_2022, Ahmad2023}. Ils peuvent produire des recommandations pertinentes sans permettre de comprendre précisément les éléments ayant conduit à ces résultats.
+
+
+Dans le domaine médical, cette limitation constitue un enjeu important : il est nécessaire de pouvoir examiner les facteurs ayant influencé une recommandation, comprendre pourquoi un médicament est classé devant un autre et identifier les modifications des données susceptibles de changer le résultat du modèle.
+
+
+Ce stage s’inscrit dans le cadre d’un projet de recherche consacré au développement d’un système de recommandation de médicaments à partir de données cliniques historiques. Une première version du système a déjà été développée et évaluée à partir des bases MIMIC-IV et eICU. Elle repose notamment sur une architecture hybride associant un modèle Transformer et un réseau de neurones sur graphes relationnels. Ce sujet s'inscrit dans la continuité directe des travaux déjà menés au sein de l'équipe SysReIC \cite{Garouani_2022, Ahmad2023, choaib:hal-05068872}, en approfondissant notamment la question de recherche qui consiste à savoir comment produire des explications fiables et vérifiables pour un système de recommandation de médicaments reposant sur des modèles hybrides d’apprentissage profond. Plus précisément, il s’agit de déterminer quels éléments du contexte clinique influencent le classement des médicaments et d’identifier les modifications minimales de ces éléments susceptibles de modifier une recommandation au moyen de l'analyse contrefactuelle \cite{guidotti2024counterfactual, prado2024survey, nguyen2026top} et de l'inférence causale \cite{luo2024survey}.
+
+
+L’objectif du stage est de prolonger ces travaux en développant et en évaluant une approche d’intelligence artificielle explicable (XAI), permettant d’analyser et justifier le comportement du modèle de recommandation \cite{Garouani_2022, choaib:hal-05068872}.
+
+
+%=======================================================
+\section{Contexte et objectifs de la demande}
+
+
+Ce sujet de stage, inscrit dans les axes de recherche de l’équipe IC/SysReIC (LISIC), vise à concevoir un module d'explicabilité contrefactuelle et contrastive \cite{guidotti2024counterfactual, prado2024survey} intégré à un système de recommandation de médicaments combinant un Agent IA d'interaction, une recherche vectorielle et des modèles de représentation avancés (Transformers et GNN). L’objectif principal est de lever l'effet \og boîte noire \fg{}  du moteur de classement existant en analysant l'impact de perturbations contrôlées du contexte clinique sur le rang des suggestions, permettant ainsi d'expliquer pourquoi une option est privilégiée par rapport à une autre \cite{luo2024survey, nguyen2026top}. Le stagiaire aura pour mission d'étudier l'architecture actuelle, de développer un module Python traçable (rebasé sur le frozen ranking replay), d'évaluer expérimentalement la fidélité et la stabilité des explications produites \cite{nguyen2026top}, et finaliser l'intégration complète au sein du pipeline logiciel.
+
+
+\begin{thebibliography}{99}
+
+\bibitem{choaib:hal-05068872}
+M.~Choaib, M.~Garouani, M.~M.~Bouneffa, et A.~Ahmad.
+\newblock IoT-AID: Leveraging XAI for Conversational Recommendations in Cyber-Physical Systems.
+\newblock Dans \emph{27th International Conference on Enterprise Information Systems (ICEIS)}, pages 671--679, Porto, Portugal, 2025. SCITEPRESS.
+
+\bibitem{Ahmad2023}
+M.~Garouani, A.~Ahmad, et M.~Bouneffa.
+\newblock Explaining Meta-Features Importance in Meta-Learning Through Shapley Values.
+\newblock Dans \emph{International Conference on Enterprise Information Systems (ICEIS)}, volume~1, pages 591--598, 2023.
+
+\bibitem{Garouani_2022}
+M.~Garouani, A.~Ahmad, M.~Bouneffa, et M.~Hamlich.
+\newblock AMLBID: An auto-explained Automated Machine Learning tool for Big Industrial Data.
+\newblock \emph{SoftwareX}, 17:100919, 2022.
+
+\bibitem{guidotti2024counterfactual}
+R.~Guidotti.
+\newblock Counterfactual explanations and how to find them: literature review and benchmarking.
+\newblock \emph{Data Mining and Knowledge Discovery}, 38(5):2770--2824, 2024.
+
+\bibitem{prado2024survey}
+M.~A.~Prado-Romero, B.~Prenkaj, G.~Stilo, et F.~Giannotti.
+\newblock A survey on graph counterfactual explanations: definitions, methods, evaluation, and research challenges.
+\newblock \emph{ACM Computing Surveys}, 56(7):1--37, 2024.
+
+\bibitem{luo2024survey}
+H.~Luo, F.~Zhuang, R.~Xie, H.~Zhu, D.~Wang, Z.~An, et Y.~Xu.
+\newblock A survey on causal inference for recommendation.
+\newblock \emph{The Innovation}, 5(2), 2024.
+
+\bibitem{nguyen2026top}
+Q.-H.~Nguyen, T.-H.~Nguyen, K.-M.~Thai, D.-H.~Pham, H.-S.~Nguyen, C.-V.~T.~Nguyen, M.~Mansoury, D.-T.~Le, et H.-Q.~Le.
+\newblock From Top-1 to Top-K: A Reproducibility Study and Benchmarking of Counterfactual Explanations for Recommender Systems.
+\newblock \emph{arXiv preprint arXiv:2604.19663}, 2026.
+
+\end{thebibliography}
+
+
+\end{document}
+
+ 
